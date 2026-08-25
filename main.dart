@@ -70,7 +70,18 @@ else if(temp<40){
 else{
   print("very hot weather");
 }
-
+//question no 06
+String alphabet ="y";
+if(alphabet=="a"||
+ alphabet=="e"||
+ alphabet=="i"||
+ alphabet=="o"||
+ alphabet=="u"){
+  print("vowel");
+ }
+else{
+  print("consonant");
+}
 
 
 
