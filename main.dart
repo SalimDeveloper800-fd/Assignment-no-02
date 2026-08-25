@@ -22,5 +22,16 @@ int age2 =18;
  else{
   print("both have same age");
  }
+//question no 03
+int classheld =16;
+int classattend =10;
 
+double percentage=(classattend/classheld)*100;
+print(percentage);
+if(percentage>=75){
+  print("students allowed in exam");
+}
+else{
+  print("students not allowed in exam");
+}
 }
