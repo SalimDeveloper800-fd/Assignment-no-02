@@ -49,6 +49,30 @@ else if(year% 4 == 0){
 else{
   print("not a leap year");
 }
+//question no 05
+int temp=42;
+
+if(temp<0){
+  print("freezing weathher");
+}
+else if(temp<10){
+  print("very cold weather");
+}
+else if(temp<20){
+  print("cold weather");
+}
+else if(temp<30){
+  print("normal weather");
+}
+else if(temp<40){
+  print("hot weather");
+}
+else{
+  print("very hot weather");
+}
+
+
+
 
 }
 
