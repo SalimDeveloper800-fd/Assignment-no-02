@@ -83,6 +83,81 @@ else{
   print("consonant");
 }
 
+//question no 08
+ List <String> names =["salim","yahya","sufyan","anus","muhammad"];
+ print(names);
+
+//question no 09
+List <String> days =[];
+
+ days.add ("Monday");
+ days.add ("Tuesday");
+ days.add ("Wedensday");
+ days.add ("Thursday");
+ days.add ("Friday");
+ days.add ("Satuarday");
+ days.add ("Sunday");
+ print(days);
+
+//question no 10
+List <String> day = [
+    "Monday",
+    "Tuesday",
+   "WEdensday",
+  "Thursday",
+    "Friday",
+  "Satuarday",
+    "Sunday",
+];
+  days.removeLast();
+  print(days);
+  days.removeLast();
+  print(days);
+  days.removeLast();
+  print(days);
+  days.removeLast();
+  print(days);
+  days.removeLast();
+  print(days);
+  days.removeLast();
+  print(days);
+  days.removeLast();
+  print(days);
+
+//question no 11
+
+ List <int> numbers=[34,90,12,16,9];
+  int smallest =(0);
+  int greatest =(0);
+
+  for(int number in numbers){
+    if(number<smallest){
+      smallest=number;
+  }
+
+  if(number>greatest){
+    greatest=number;
+  }
+  }
+ 
+  print("list: $numbers");
+  print("smallestnumber: $smallest");
+  print("largestnumber: $greatest");
+
+ //question no 12
+
+ List<int> numbers02 = [5, 8, 2, 90,80];
+
+  int max = numbers[0];
+
+  for (int n in numbers) {
+    if (n > max) {
+      max = n;
+    }
+  }
+
+  print("Maximum value: $max");
+
 
 
 }
