@@ -158,9 +158,28 @@ List <String> day = [
 
   print("Maximum value: $max");
 
-
-
+  Map user ={
+  "name": "salim",
+   "age": 17,
+   "city": "karachi",
+   "adress": "11-f new karachi",
+  };
+  print(user["name"]);
+  print(user["age"]);
+  print(user["city"]);
+  print(user["adress"]);
+  user["city"]="islamabad";
+  user.remove("country");
+  print(user.containsKey("age"));
+  print(user.containsValue("salim"));
+  print(user);
+ print(user["name"]);
+print(user["age"]);
+print(user["city"]);
+print(user["adress"]);
+print(user.length);
 }
+
 
 
 
